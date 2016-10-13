@@ -5,9 +5,10 @@ import { Hero } from '../../entity/Hero';
 import { HeroService } from '../../service/hero/HeroService';
 
 @Component({
+    moduleId: module.id,
     selector: 'my-dashboard',
-    templateUrl: './app/module/hero/dashboard.component.html',
-    styleUrls: ['./app/module/hero/dashboard.component.css']
+    templateUrl: './dashboard.component.html',
+    styleUrls: ['./dashboard.component.css']
 })
 
 export class DashboardComponent implements OnInit {
